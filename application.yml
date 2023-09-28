@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: native
+  application:
+    name: microservice
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
